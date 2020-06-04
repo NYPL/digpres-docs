@@ -1,17 +1,13 @@
-# Build settings
+title: NYPL DigPres Docs
+description: >-
+  Documentation for the New York Public Library's
+  digital preservation workflows, practices, and policies
+  for its collections.
+baseurl: "/digpres-docs" # the subpath of your site, e.g. /blog
+url: "https://nypl.github.io"
+
 remote_theme: pmarsceill/just-the-docs
 
 search_enabled: true
 search_tokenizer_separator: /[\s/]+/
 heading_anchors: true
-
-title: NYPL DigPres Docs
-email: nickkrabbenhoeft@nypl.org
-description: >- # this means to ignore newlines until "baseurl:"
-  Documentation for the New York Public Library's
-  digital preservation workflows, practices, and policies
-  for its collections.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "nypl.github.io/digpres-docs" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: nypl_digpres
-insta_username: nypl_digpres
