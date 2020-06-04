@@ -1,3 +1,10 @@
+# Build settings
+remote_theme: pmarsceill/just-the-docs
+
+search_enabled: true
+search_tokenizer_separator: /[\s/]+/
+heading_anchors: true
+
 title: NYPL DigPres Docs
 email: nickkrabbenhoeft@nypl.org
 description: >- # this means to ignore newlines until "baseurl:"
@@ -8,12 +15,3 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "nypl.github.io/digpres-docs" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: nypl_digpres
 insta_username: nypl_digpres
-
-# Build settings
-remote_theme: pmarsceill/just-the-docs
-search_enabled: true
-search_tokenizer_separator: /[\s/]+/
-heading_anchors: true
-
-plugins:
-  - jekyll-feed
